@@ -1,0 +1,23 @@
+@import url(./basic-styles.css);
+
+/* lesson styles */
+
+.container {
+	display: grid;
+	grid-template-columns: repeat(4, 150px);
+	grid-template-rows: repeat(3, 150px);
+	border: 10px solid #000;
+	height: 500px;
+
+	/* justify-items: stretch;
+	align-items: stretch; */
+
+	/* justify-content: space-evenly; */
+
+	/* align-content: space-evenly; */
+}
+
+.item-4 {
+	justify-self: center;
+	align-self: center;
+}
